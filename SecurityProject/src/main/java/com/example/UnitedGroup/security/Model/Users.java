@@ -2,9 +2,10 @@ package com.example.UnitedGroup.security.Model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
+import jakarta.persistence.Table;
 
 @Entity
-
+@Table(name = "accs")
 public class Users {
     @Id
     private int id;
